@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de pseudoclasses - 15/05/2025</title>
+</head>
+<style>
+    a:hover{
+        background-color: red;
+        transition: all 3s ease-in-out;
+    }
+    a:visited{
+        background:purple;
+    }
+    a:link{
+        background:red;
+    }
+    a:active{
+    .cor-paragrafo-ao-clicar:active{
+        background: yellow;
+    }
+    }
+    input:focus{
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        outline: none;
+        border-color: red;
+
+    }
+    input:disabled{
+        background: green;
+        cursor: not-allowed;
+    }
+    input:disabled:hover{
+        background:red;
+    }
+    input:checked + p{
+        width: 50px;
+        height: 50px;
+    }
+</style>
+<body>
+    <h1 class="heading">Lorem</h1>
+    <p class="">
+        <a href=""></a>
+    </p>
+    <input type="text" placeholder="000-111-784-21" disabled>
+    <input type="checkbox">
+</body>
+</html>
