@@ -1,0 +1,38 @@
+body{
+    width: 1200px;
+    height: 1200px;
+}
+.pai div{
+    width: 100px;
+    height: 100px;
+}
+.filho1{
+    background-color: rgb(214, 75, 179);
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+.filho2{
+    background-color: rgb(112, 31, 92);
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+.filho3{
+    background-color: rgb(182, 18, 141);
+    position: fixed;
+    right: 15px;
+}
+.filho4{
+    background-color: #df67c1;
+    position: relative;
+    top: 50px;
+
+}
+.filho5{
+    background-color: rgb(247, 155, 224);
+    position: sticky;
+    top: 20px;
+    left: 80px;
+    z-index: 2;
+}
