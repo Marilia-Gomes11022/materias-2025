@@ -1,0 +1,17 @@
+body{
+    background-color: navy;
+}
+ul{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    
+}
+li{
+    display: flex;
+    justify-content:space-around;
+}
+.azul{
+    display: flex;
+    justify-content: flex-start
+}
