@@ -1,7 +1,15 @@
 body{
     background-color: rgb(161, 161, 255);
+    grid-template-columns: repeat();
 }
 ul{
     display: grid;
+
 }
-li{}
+span{
+    border: 50px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
