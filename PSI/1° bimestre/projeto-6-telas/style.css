@@ -1,17 +1,44 @@
 :root{
-    --linear-2-rosas: color: linear-gradient(to right, #ef3479, #d80956 )
+    --linear-2-rosas: color: linear-gradient(to right, #ef3479, #d80956 );
+    --header-rosa: #EF5A91;
+    --white: #FFFFFF;
+    --button-rosa: #B42A8D;
+
+}
+header{
+    background-color: var(--header-rosa);
+    display: flex;
+    width: 100%
+}
+header div{
+    display: flex;
+    align-content: center;
+}
+header .left h1{
+    align-content: center;
+    font-family: Coiny;
+    color: var(--white);
+    margin: 0px;
 }
 
-body{
-    background-color: var(--linear-2-rosas);
+header .left .logo{
+    height: 80px;
+    width: 85px;
 }
-img{
-    width:85px;
-    height: 85px;
+header .right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
-div{
-    display: flex
+header .right button{
+    background-color: var(--button-rosa);
+    font-family: Francois One;
+    border: 0px;
+    margin-right: 17px;
+    width: 115px;
+    height: 40px;
+    border-radius: 15px;
 }
-button{
-    display:flex;
+header .right button a{
+    text-decoration: none;
 }
