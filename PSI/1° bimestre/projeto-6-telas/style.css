@@ -1,5 +1,5 @@
 :root{
-    --linear-2-rosas: color: linear-gradient(to right, #ef3479, #d80956 );
+    --linear-fundo: color: linear-gradient(to right, #EF3479, #D80956);
     --header-rosa: #EF5A91;
     --white: #FFFFFF;
     --button-rosa: #B42A8D;
@@ -41,4 +41,8 @@ header .right button{
 }
 header .right button a{
     text-decoration: none;
+}
+
+main{
+    background: linear-gradient(to bottom, #EF3479, #D80956);
 }
