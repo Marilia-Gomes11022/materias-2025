@@ -3,7 +3,13 @@
     --header-rosa: #EF5A91;
     --white: #FFFFFF;
     --button-rosa: #B42A8D;
+    --footer-lilás: #B42A8D;
+}
 
+
+.logo{
+    height: 80px;
+    width: 85px;
 }
 header{
     background-color: var(--header-rosa);
@@ -19,11 +25,6 @@ header .left h1{
     font-family: Coiny;
     color: var(--white);
     margin: 0px;
-}
-
-header .left .logo{
-    height: 80px;
-    width: 85px;
 }
 header .right{
     display: flex;
@@ -41,8 +42,46 @@ header .right button{
 }
 header .right button a{
     text-decoration: none;
+    color: var(--white)
 }
 
 main{
     background: linear-gradient(to bottom, #EF3479, #D80956);
+}
+main div h1{
+    margin: 0px;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-family: Francois One;
+    color: var(--white);
+    font-weight: 400;
+}
+main div span{
+    font-family: Alata;
+    color: var(--white);
+    padding-left: 20px;
+}
+.modais{
+    display: flex;
+}
+.modais span{
+    font-weight: 700;
+    font-size: ;
+}
+footer{
+    background-color: var(--footer-lilás);
+    display: flex;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    width: 12em;
+    color: var(--white);
+    font-family: Francois One;
+    margin: 20px;
+}
+footer .logo{
+    margin-top: 10px;
+    margin-left: 10px;
 }
