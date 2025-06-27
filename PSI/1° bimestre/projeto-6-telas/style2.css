@@ -1,0 +1,28 @@
+:root{
+    --linear-fundo: color: linear-gradient(to right, #EF3479, #D80956);
+    --header-rosa: #EF5A91;
+    --white: #FFFFFF;
+    --button-rosa: #B42A8D;
+    --cor-lilás: #B42A8D;
+}
+body{
+    margin:0px;
+}
+main{
+    background: linear-gradient(to bottom, #EF3479, #D80956);
+    height: 954px;
+    width:100%;
+    padding-left: 20px;
+    padding-right:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main div{
+    background-color: var(--cor-lilás);
+    width: 620px;
+    height: 824px;
+    justify-self: center;
+    align-self: center;
+    border-radius:40px;
+}

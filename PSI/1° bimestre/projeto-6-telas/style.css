@@ -5,7 +5,9 @@
     --button-rosa: #B42A8D;
     --footer-lilás: #B42A8D;
 }
-
+body{
+    margin:0px;
+}
 
 .logo{
     height: 80px;
@@ -47,30 +49,35 @@ header .right button a{
 
 main{
     background: linear-gradient(to bottom, #EF3479, #D80956);
+    height: 667px;
+    padding-left: 20px;
+    padding-right:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main div .first-title{
+    padding-top:0px;
 }
 main div h1{
     margin: 0px;
-    margin-bottom: 0.5em;
-    margin-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
     font-family: Francois One;
     color: var(--white);
     font-weight: 400;
 }
 main div span{
+    margin:0px;
     font-family: Alata;
     color: var(--white);
-    padding-left: 20px;
-}
-.modais{
-    display: flex;
-}
-.modais span{
-    font-weight: 700;
-    font-size: ;
+    padding-left: 50px;
 }
 footer{
     background-color: var(--footer-lilás);
     display: flex;
+    justify-content: center;
 }
 footer div{
     display: flex;
@@ -82,6 +89,7 @@ footer div{
     margin: 20px;
 }
 footer .logo{
-    margin-top: 10px;
     margin-left: 10px;
+    display: flex;
+    align-self: center;
 }
