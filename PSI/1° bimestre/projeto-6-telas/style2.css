@@ -4,16 +4,17 @@
     --white: #FFFFFF;
     --button-rosa: #B42A8D;
     --cor-lilás: #B42A8D;
+    --placeholder: #471764;
+    --button-salvar: #66267e;
+    --backg-salvar: #e6aafa;
 }
 body{
     margin:0px;
 }
 main{
     background: linear-gradient(to bottom, #EF3479, #D80956);
-    height: 954px;
-    width:100%;
-    padding-left: 20px;
-    padding-right:700px;
+    height: 1062px;
+    width: 2269px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,5 +25,49 @@ main div{
     height: 824px;
     justify-self: center;
     align-self: center;
-    border-radius:40px;
+    align-content: center;
+    justify-items: center;
+    border-radius: 40px;
+}
+
+main div b{
+    color: var(--white);
+    font-family: Francois One;
+    font-size: 75px;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+main div input{
+    display: flex;
+    font-size: 38px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 412px;
+    height: 90px;
+    border: 0cap;
+    border-radius: 20px;
+}
+
+main div .inputs{
+    height:450px;
+}
+main div input::placeholder{
+    font-size: 38px;
+    color: var(--placeholder);
+    opacity: 50%;
+    height: 40px;
+    line-height: 40px;
+}
+main div button{
+    font-family: Coiny;
+    font-size: 50px;
+    color: var(--button-salvar);
+    background-color: var(--backg-salvar);
+    width: 412px;
+    height: 90px;
+    border: 0cap;
+    border-radius: 20px;
+}
+main div button:active{
+    width: 420px;
+    height: 98px;
 }
