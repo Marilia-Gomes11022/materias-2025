@@ -58,7 +58,6 @@ header .right input::placeholder{
     height: 45px;
 }
 header .right a{
-    text-decoration: none;
     font-family: Francois One;
     color: var(--white);
     padding-right:20px;
